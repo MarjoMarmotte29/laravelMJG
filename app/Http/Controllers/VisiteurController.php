@@ -21,7 +21,7 @@ class VisiteurController extends Controller
    * @return \Illuminate\Contracts\View\View
    */
   public function presentation() {
-    return view('presentation');
+    return view('/presentation');
   }
   /**
    * Affichage de la page de la formation mf1
@@ -38,7 +38,7 @@ class VisiteurController extends Controller
    * @return \Illuminate\Contracts\View\View
    */
   public function mf2() {
-    return view('mf2');
+    return view('/mf2');
   }
 
   /**
@@ -47,7 +47,7 @@ class VisiteurController extends Controller
    * @return \Illuminate\Contracts\View\View
    */
   public function contact() {
-    return view('contact');
+    return view('/contact');
   }
 
   /**
@@ -56,6 +56,6 @@ class VisiteurController extends Controller
    * @return \Illuminate\Contracts\View\View
    */
   public function mentionslegales() {
-    return view('mentionslegales');
+    return view('/mentionslegales');
   }
 }
