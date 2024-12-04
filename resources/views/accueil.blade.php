@@ -1,5 +1,5 @@
-@extends("base")
-@section("titre", "Formation MF2 MF1")
+@extends("layout")
+@section("titre", "Gwenrann Formation")
 @section("description", "")
 
 @section("contenu")

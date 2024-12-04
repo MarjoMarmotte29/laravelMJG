@@ -7,7 +7,8 @@ use App\Http\Controllers\VisiteurController;
 
 //Route pour la partie visiteur - utilisation d'un controlleur
 Route::controller(VisiteurController::class)->group(function () {
-  Route::get('/', "accueil")->name("accueil"); //Exécute la fonction accueil présent dans VisiteurController
+  Route::get('/', "layout")->name("layout"); //Exécute la fonction accueil présent dans VisiteurController
+  Route::get('/navigation', "navigation")->name("navigation");
   Route::get('/presentation', "presentation")->name("presentation");
   Route::get('/mf1', "mf1")->name("Formation MF1");
   Route::get('/mf2', "mf2")->name("Formation MF2");

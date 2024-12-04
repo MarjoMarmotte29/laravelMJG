@@ -12,8 +12,24 @@ class VisiteurController extends Controller
    *
    * @return \Illuminate\Contracts\View\View
    */
+  public function layout() {
+    return view('/layout'); //Affiche la vue accueil.blade.php présent le dossier ressources/view
+  }
+  /**
+   * Affichage de la page accueil
+   *
+   * @return \Illuminate\Contracts\View\View
+   */
   public function accueil() {
     return view('/accueil'); //Affiche la vue accueil.blade.php présent le dossier ressources/view
+  }
+  /**
+   * Affichage de la page navigation
+   *
+   * @return \Illuminate\Contracts\View\View
+   */
+  public function navigation() {
+    return view('/navigation'); //Affiche la vue navigation.blade.php présent le dossier ressources/view
   }
 /**
    * Affichage de la page de présentation
