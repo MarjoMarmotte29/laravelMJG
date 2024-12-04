@@ -1,1 +1,1 @@
-<a class="navbar-item" {{ request()->is($lien) ? "active" : "" }}" href="{{url($lien)}}">{{texte}}</a>
+<a href="{{url($lien)}}" class="navbar-item" {{request()->is($lien) ? 'active' : '' }}" >{{texte}}</a>

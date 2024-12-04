@@ -19,12 +19,12 @@
     <nav class="navbar">
       <div class="navbar-menu">
         <div class="navbar-start">
-          @include('partial.navbar-item', ['lien' =>'/', texte => 'accueil'])
+          @include('partial.navbar-item', ['lien' =>'/', 'texte' => 'accueil'])
         </div>
         <div class="navbar-center">
-          @include('partial.navbar-item', ['lien' =>'/', texte => 'Accueil'])
-          @include('partial.navbar-item', ['lien' =>'/', texte => 'Formations'])
-          @include('partial.navbar-item', ['lien' =>'/', texte => 'Contact'])
+          @include('partial.navbar-item', ['lien' =>'/', 'texte' => 'Accueil'])
+          @include('partial.navbar-item', ['lien' =>'/', 'texte' => 'Formations'])
+          @include('partial.navbar-item', ['lien' =>'/', 'texte' => 'Contact'])
         </div>
         <form class="nav_bar-search pull-right" action="recherche.html">
           <input class="searche-query span2" type="text" placeholder="Rechercher">
