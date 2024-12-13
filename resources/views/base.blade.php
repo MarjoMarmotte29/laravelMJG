@@ -20,9 +20,11 @@
     @include('entete')
     <div class="corps">
       <div class="contenu">
-        <div class="container-fluid">
-          @yield("contenu")
-          <img class="rounded float-right" src="/images/logoGwenrann_1.jpg" width="160" height="280"alt="Logo du site web"></a>         
+        <div class="container-fluid flex-direction column">
+            @yield("contenu")
+          <div class="flex-end">
+            <img class="flex-end" src="/images/logoGwenrann_1.jpg" width="160" height="280"alt="Logo du site web"></a>         
+          </div>
         </div>
       </div>
     </div>

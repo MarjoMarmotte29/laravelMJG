@@ -17,7 +17,7 @@ class VisiteurController extends Controller
   }
 
   /**
-   * Affichage de la page de présentation
+   * Affichage de la page de formation
    *
    * @return \Illuminate\Contracts\View\View
    */

@@ -14,6 +14,11 @@
       @yield('mf2')
     </div>
     <div class="col-6">
+    <h1> Formation Guide de Palanquée</h1>
+      @yield('niveau4')
+    </div>
+    <div class="col-6">
+    <h1> Contact</h1>
       @yield('contact')
     </div>
   </div>
