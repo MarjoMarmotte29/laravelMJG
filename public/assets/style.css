@@ -1,3 +1,24 @@
+
+body{
+display: flex;
+flex-direction:column;
+flex-wrap: wrap;
+background-color: #6f6c6c !important;
+}
 .entete{
    background-color: black;
+}
+
+.container {
+   background-color: rgb(253, 252, 252);
+   height: 100%;
+   padding: 10px;
+   position: relative;
+} 
+h1 {
+   color: rgb(11, 11, 11) !important;
+}
+
+.image {
+   width: 150px;
 }

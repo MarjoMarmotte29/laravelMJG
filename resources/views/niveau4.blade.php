@@ -12,6 +12,7 @@
                 <li> de la théorie</li>
             <p>Notre devise : plonger, s'entraîner, réviser dans la joie et la bonne humeur!</p>
             <p> Venez nous rejoindre</p>
+            <img src="/images/nage.jpg" alt="image carrière"></a>
         </div>
 
 @endsection

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="/css/theme.css">
     <link rel="stylesheet" href="/fontawesome/css/all.min.css">
-    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
     <script type="text/javascript" src="/javascript/bootstrap/bootstrap.bundle.min.js"></script>
     <!--<script type="text/javascript" src="/js/axios.min.js"></script>-->
