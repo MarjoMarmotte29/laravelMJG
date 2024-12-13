@@ -22,7 +22,7 @@
       <div class="contenu">
         <div class="container-fluid">
           @yield("contenu")
-          <img class="rounded float-right" src="/images/logoGwenrann_1.jpg" alt="Logo du site web"></a>         
+          <img class="rounded float-right" src="/images/logoGwenrann_1.jpg" width="160" height="280"alt="Logo du site web"></a>         
         </div>
       </div>
     </div>
