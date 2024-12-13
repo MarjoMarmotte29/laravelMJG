@@ -1,40 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
+    <title>@yield('titre')</title>
+    <meta name="description" content="@yield('description')"/>
+
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+
+    <script type="text/javascript" src="/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+    <!--<script type="text/javascript" src="/js/axios.min.js"></script>-->
+    <!--<script type="text/javascript" src="/js/app.js"></script>-->
+  </head>
   <body>
-    <div class="entete">
-      @include("navigation")
-      <div class="row">
-        <div class="span7">
-          <div id="moncorrousel" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="item">
-                <img src="./images/nage.jpg" alt="">
-                <div class="carousel-caption">
-                  <p> La nage...</p>
-                </div>
-              </div>
-              <div class="item">
-                <img src="./images/02.jpg" alt="">
-                <div class="carousel-caption">
-                  <h4>A l'eau</h4>
-                  <p> Kiki et compagnie!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      <div class="logo">
-      <a class="navbar-brand" href="#"><img src="./images/logoGwenrann_droite.png" alt="Logo du site web"></a>
-      </div>
-    </div>
-    </div>
+    @include('entete')
     <div class="corps">
       <div class="contenu">
         <div class="container-fluid">
           @yield("contenu")
+          <img class="rounded float-right" src="/images/logoGwenrann_1.jpg" alt="Logo du site web"></a>         
         </div>
       </div>
     </div>
-</div>
-    
+  @include('footer') 
   </body>
 </html>
