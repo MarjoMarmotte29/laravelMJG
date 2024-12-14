@@ -3,30 +3,30 @@
 
 @section("contenu")
 <div>
-  <h1><b>Fromation MF1</b></h1>
-  <p>Gwenrann-formation organise un week-end de formation MF1 par mois au même date que la formation MF2, la rencontre facilitant l'enrichissement des 2 formations. Les mois d’hiver, 2 WE sont consacrés exclusivement à la pédagogie en salle. Les MF2 formateurs prennent en charge à tour de rôle un stagiaire pédagogique MF1. Le suivi est individualisé, adapté à chaque niveau de progression.</p> 
+  <h1><b>Formation MF1</b></h1>
+  <p>Gwenrann-formation organise un week-end de formation MF1 par mois au même date que la formation MF2.</p>
+  <p> La rencontre facilite l'enrichissement des 2 formations.</p>
+  <p>Les mois d’hiver : 2 WE sont consacrés exclusivement à la pédagogie en salle. Les MF2 formateurs prennent en charge à tour de rôle un stagiaire pédagogique MF1.</p>
+  <p>Le suivi est individualisé, adapté à chaque niveau de progression.</p>
     <div class="d-flex justify-content-around">
       <div class="d-flex flex-row mb-3">
         <div class="p-2">
-          <h2>Entrainement Physique</h2>
+          <h2>La pratique</h2>
           <p>Les différentes épreuves : </p>
-          <li>1500 pmt ou 1000 capelé</li>
-          <li>L'apnée à 15 m</li>
-          <li>Le mannequin : 200 m nage, apnée 10m, 100 m tractage</li>
-          <li>Les épreuves de plongée à 50m</li>
-          <li>La plongée à 35m : DTMR</li>
-          <img class="img-rounded" src="/images/accueil_d.png">
+          <li>Pédagogie pratique</li>
+          <p>Les sujets réalisés portent sur l’apprentissage, la maîtrise ou le perfectionnement des exercices préparant aux brevets de plongeurs du débutant au niveau 3, des qualifications PA20, PE40, PA40 et PE60 au GP et DP, et rando sub !</p>
+          <li>l'IPD de 25m</li>
+          <img class="img-rounded" src="/images/accueil_g.png">
         </div>
         <div class="p-2">
           <h2>Théorie</h2>
-          <p>Sous forme de Questions à Réponses Ouvertes et Courtes, les fameuses QROCS permettent aux stagiaires de réviser en continu. Chaque week-end est l'occasion d'aborder 3 thèmes.</p>
-          <p> Avec la mise en place de la plate-forme Moodle, les créateurs de cours élaborent des QCM facilitant la démarche de révision</p>
-          <img class="img-rounded" src="/images/08.jpg">
+          <p>Lors des séances de péda théorique, les stagiaires vont démontrer leur capacité d'enseignant, leur possibilité de transmettre leur connaissances à des plongeurs tout niveau.</p>
+          <img class="img-rounded" src="/images/11.jpg">
         </div>
         <div class="p-2">
-          <h2>Pédagogie</h2>
-          <p>Les mois d’hiver, quelques WE sont consacrés exclusivement à la pédagogie. Ces WE sont destinés aussi bien aux stagiaires MF1 qu’aux Stagiaires MF2. La péda n’est pas oubliée pendant les autres WE, qu’il s’agisse de péda théorique, pratique ou organisationnelle.</p>
-          <img class="img-rounded" src="/images/F1_F2.jpg">
+          <h2>Pédagogie Organisationelle</h2>
+          <p>La capacité à organiser notre activité dans le cadre fédéral en toute sécurité est abordée lors de nos week-end Gwenrann formation, permettant à chaque stagiaire de présenter quelques sujets d'orga, le préparant à l'exam, mais également à l'orga réelle d'un MF1.</p>
+          <img class="img-rounded" src="/images/accueil_d.png">
         </div>
       </div>
     </div>
