@@ -2,18 +2,36 @@
 @section("titre", "Formation MF1")
 
 @section("contenu")
-<a><b>Formation MF1</b></a>
-        <div> 
-            <p>Devenir Moniteur fédéral MF1. </p>
-            <p><b>Gwenrann Formation</b> propose aux stagiaires E2 ou Guide de Palanquée, un programme développant les capacités en pédagogie :
-                <li> de la pratique,</li>
-                <li> organisasionnelle et sécurité</li>
-                <li> de la théorie</li>
-            <p>Notre devise : plonger, s'entraîner, réviser dans la joie et la bonne humeur!</p>
-            <p> Venez nous rejoindre</p>
-            <img src="/images/accueil_d.png" alt="image carrière"></a>
+<div>
+  <h1><b>Fromation MF1</b></h1>
+  <p>Gwenrann-formation organise un week-end de formation MF1 par mois au même date que la formation MF2, la rencontre facilitant l'enrichissement des 2 formations. Les mois d’hiver, 2 WE sont consacrés exclusivement à la pédagogie en salle. Les MF2 formateurs prennent en charge à tour de rôle un stagiaire pédagogique MF1. Le suivi est individualisé, adapté à chaque niveau de progression.</p> 
+    <div class="d-flex justify-content-around">
+      <div class="d-flex flex-row mb-3">
+        <div class="p-2">
+          <h2>Entrainement Physique</h2>
+          <p>Les différentes épreuves : </p>
+          <li>1500 pmt ou 1000 capelé</li>
+          <li>L'apnée à 15 m</li>
+          <li>Le mannequin : 200 m nage, apnée 10m, 100 m tractage</li>
+          <li>Les épreuves de plongée à 50m</li>
+          <li>La plongée à 35m : DTMR</li>
+          <img class="img-rounded" src="/images/accueil_d.png">
         </div>
-          <a type="button" class="btn btn-secondary" href="mf1">En savoir plus</a>
-       
+        <div class="p-2">
+          <h2>Théorie</h2>
+          <p>Sous forme de Questions à Réponses Ouvertes et Courtes, les fameuses QROCS permettent aux stagiaires de réviser en continu. Chaque week-end est l'occasion d'aborder 3 thèmes.</p>
+          <p> Avec la mise en place de la plate-forme Moodle, les créateurs de cours élaborent des QCM facilitant la démarche de révision</p>
+          <img class="img-rounded" src="/images/08.jpg">
+        </div>
+        <div class="p-2">
+          <h2>Pédagogie</h2>
+          <p>Les mois d’hiver, quelques WE sont consacrés exclusivement à la pédagogie. Ces WE sont destinés aussi bien aux stagiaires MF1 qu’aux Stagiaires MF2. La péda n’est pas oubliée pendant les autres WE, qu’il s’agisse de péda théorique, pratique ou organisationnelle.</p>
+          <img class="img-rounded" src="/images/F1_F2.jpg">
+        </div>
+      </div>
+    </div>
 
+Venez nous rejoindre ! 
+<a href="#"> retour en haut</a>
+</div>
 @endsection

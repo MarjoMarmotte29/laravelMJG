@@ -3,7 +3,7 @@
 
 @section("contenu")
 <div>
-  <h1><b>Fromation MF2</b></h1>
+  <h1><b>Formation MF2</b></h1>
   <p>Gwenrann-formation organise un week-end par mois d'entrainement physique, théorique et pédagogique pour enrichir vos compétences, durant le stage en situation, formation adaptée aux nouvelles épreuves MF2. Voici en quelques lignes, le déroulé de nos séances :</p> 
     <div class="d-flex justify-content-around">
       <div class="d-flex flex-row mb-3">
