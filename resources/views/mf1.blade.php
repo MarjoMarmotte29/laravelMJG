@@ -1,6 +1,5 @@
 @extends("base")
 @section("titre", "Formation MF1")
-@section("description", "")
 
 @section("contenu")
 <a><b>Formation MF1</b></a>
@@ -14,5 +13,7 @@
             <p> Venez nous rejoindre</p>
             <img src="/images/accueil_d.png" alt="image carrière"></a>
         </div>
+          <a type="button" class="btn btn-secondary" href="mf1">En savoir plus</a>
+       
 
 @endsection

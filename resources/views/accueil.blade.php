@@ -1,9 +1,10 @@
 @extends("base")
 @section("titre", "Gwenrann Formation")
-@section("description", "")
 
 @section("contenu")
-  Ceci est la page d'accueil
+  
+Ici il y aura le carousel Photos
+
   <div class="column">
     <div class="col-6">
       <h1><b> Formation MF1</b></h1>

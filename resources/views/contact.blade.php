@@ -1,6 +1,5 @@
 @extends("base")
 @section("titre", "Contact")
-@section("description", "")
 
 @section("contenu")
 <div class="flex-start">

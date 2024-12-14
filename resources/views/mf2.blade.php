@@ -1,6 +1,5 @@
 @extends("base")
 @section("titre", "Formation MF2")
-@section("description", "")
 
 @section("contenu")
 <div> 
