@@ -4,7 +4,7 @@
 
 @section("contenu")
   Ceci est la page d'accueil
-  <div class="row">
+  <div class="column">
     <div class="col-6">
       <h1><b> Formation MF1</b></h1>
       @yield('mf1')

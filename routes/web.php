@@ -12,4 +12,5 @@ Route::controller(VisiteurController::class)->group(function () {
   Route::get('/niveau4', "niveau4")->name("niveau4");
   Route::get('/contact', "contact")->name("contact");
   Route::get('/mentionslegales', "mentionslegales")->name("mentionslegales");
+  Route::get('sliders', [SliderController::class, 'index']);
 });

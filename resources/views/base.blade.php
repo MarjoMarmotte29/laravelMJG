@@ -18,6 +18,7 @@
   </head>
   <body>
     @include('entete')
+    @include('sliders')
     <div class="corps">
       <div class="contenu">
         <div class="container-fluid flex-direction column">
@@ -28,6 +29,6 @@
         </div>
       </div>
     </div>
-  @include('footer') 
+  @include('footer')
   </body>
 </html>
