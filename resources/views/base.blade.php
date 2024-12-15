@@ -17,6 +17,7 @@
     <!--<script type="text/javascript" src="/js/app.js"></script>-->
   </head>
   <body>
+    <div class="container">
     @include('entete')
     <div class="corps">
       <div class="contenu">
@@ -29,5 +30,6 @@
       </div>
     </div>
   @include('footer')
+  </div>
   </body>
 </html>
